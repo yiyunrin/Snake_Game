@@ -9,7 +9,7 @@ namespace Config{
     const int gridHeight = 20;
     const int gridSize = 30;
 
-    inline constexpr const char* pipi_png = "assets/pipidoll.png";
+    inline constexpr const char* pipi_png = "pipidoll.png";
 
     // 上右下左
     const std::vector<Vector2> direction = {{0, -1}, {1, 0}, {0, 1}, {-1, 0}};

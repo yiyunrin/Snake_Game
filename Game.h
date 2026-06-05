@@ -99,6 +99,9 @@ void Game::UpdatePlaying(){
     else{
         speed *= 0.98;
         score += 10;
+        if(score > maxScore){
+            maxScore = score;
+        }
         while(CheckEat(player.GetGrid(), obstacle.GetPos())){
             obstacle.Update();
         }
